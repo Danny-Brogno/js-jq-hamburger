@@ -86,3 +86,23 @@
 //     $("#eight").fadeToggle(2000);
 //   });
 // });
+
+
+
+function hamburgerOff(){
+
+  $(".fa-bars").click(function(){
+    $(".fa-bars").hide();
+    $(".hamburger-menu").show();
+  });
+}
+hamburgerOff();
+
+function hamburgerOn(){
+
+  $(".fa-times").click(function(){
+    $(".hamburger-menu").hide();
+    $(".fa-bars").show();
+  });
+}
+hamburgerOn();

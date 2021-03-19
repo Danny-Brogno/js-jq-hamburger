@@ -87,7 +87,7 @@
 //   });
 // });
 
-
+// VERSIONE SHOW/HIDE
 
 function hamburgerOff(){
 
@@ -106,3 +106,23 @@ function hamburgerOn(){
   });
 }
 hamburgerOn();
+
+
+
+// VERSIONE TOGGLE
+
+// function hamburgerOff(){
+//
+//   $(".fa-bars").click(function(){
+//     $(".hamburger-menu").toggle();
+//   });
+// }
+// hamburgerOff();
+//
+// function hamburgerOn(){
+//
+//   $(".fa-times").click(function(){
+//     $(".hamburger-menu").toggle();
+//   });
+// }
+// hamburgerOn();
